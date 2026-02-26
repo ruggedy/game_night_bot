@@ -1,0 +1,14 @@
+[package]
+name = "game_night_bot"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.102"
+chrono = "0.4.44"
+tokio = "1.49.0"
+wacore = { git = "https://github.com/jlucaso1/whatsapp-rust", version = "0.2.0" }
+waproto = { git = "https://github.com/jlucaso1/whatsapp-rust", version = "0.2.0" }
+whatsapp-rust = { git = "https://github.com/jlucaso1/whatsapp-rust", version = "0.2.0" }
+whatsapp-rust-tokio-transport = { git = "https://github.com/jlucaso1/whatsapp-rust", version = "0.2.0" }
+whatsapp-rust-ureq-http-client = { git = "https://github.com/jlucaso1/whatsapp-rust", version = "0.2.0" }
